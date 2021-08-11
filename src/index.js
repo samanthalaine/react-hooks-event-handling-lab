@@ -1,13 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from "./components/App";
 
-import Keypad from './components/Keypad';
-import EyesOnMe from './components/EyesOnMe';
+//import Keypad from './components/Keypad';
+//import EyesOnMe from './components/EyesOnMe';
 
-ReactDOM.render(
-  <div>
-    <Keypad />
-    <EyesOnMe />
-  </div>,
-  document.getElementById('root')
-);
+ReactDOM.render(<App />, document.getElementById("root"));
